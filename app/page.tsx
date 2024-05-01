@@ -52,6 +52,7 @@ const Home = async () => {
           <Button
             variant="ghost"
             className="h-fit p-0 text-primary hover:bg-transparent"
+            asChild
           >
             <Link href="/products/recommended">
               Ver todos
@@ -74,6 +75,7 @@ const Home = async () => {
           <Button
             variant="ghost"
             className="h-fit p-0 text-primary hover:bg-transparent"
+            asChild
           >
             <Link href="/restaurants/recommended">
               Ver todos
